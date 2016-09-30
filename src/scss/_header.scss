@@ -1,6 +1,7 @@
 
 .header {
   height: 65px;
+  border-bottom: 1px solid $border-gray;
 }
 
 
@@ -16,6 +17,8 @@
   position: absolute;
   overflow: hidden;
   list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 
   li {
     float: left;
@@ -23,12 +26,50 @@
 
     a {
       display: inline-block;
-      padding: 10px;
+      padding: 10px 12px;
+      text-align: center;
+      color: black;
       text-decoration: none;
+      transition: 0.3s;
 
       &:hover {
-
+        background-color: $light-purple;
+        color: white;
       }
+    }
+  }
+}
+
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: right;
+
+  .searchbar {
+    position: relative;
+    right: -8px;
+    border:1px solid $border-gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:7px 5px;
+    width: 200px;
+    background: $off-white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85em;
+  }
+
+  .search-button {
+    position:relative;
+    border:2px solid $dark-purple;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:7px 15px;
+    background-color: $dark-purple;
+    color:#fafafa;
+
+    &:hover {
+      cursor: pointer;
     }
   }
 }
