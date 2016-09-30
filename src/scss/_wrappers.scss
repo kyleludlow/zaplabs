@@ -8,6 +8,8 @@ body {
   border: 1px solid $border-gray;
   border-radius: 5px;
   width: 100%;
+  height: auto;
+  // overflow: auto;
 }
 
 .content-wrapper {
@@ -15,6 +17,8 @@ body {
 }
 
 .main {
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
   height: 100%;
 }

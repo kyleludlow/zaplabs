@@ -1,0 +1,97 @@
+
+
+hr {
+  float: left;
+  width: 97%;
+  background-color: $border-gray;
+  margin-bottom: 70px;
+}
+.left-content-row {
+  // border-bottom: 1px solid $border-gray;
+  height: 200px;
+}
+
+.image-box {
+  float: left;
+  border: 0.5px solid $border-gray;
+  padding: 2.5px;
+
+  @media screen and (min-width: 768px) {
+    width: 20%;
+  }
+
+  .image-div {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    overflow: hidden;
+  }
+
+  .image-caption-div {
+    margin-top: -3px;
+    text-align: center;
+    padding: 5px;
+    background-color: $medium-purple;
+    color: white;
+  }
+}
+
+.main-content {
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  @media screen and (min-width: 768px) {
+    width: 80%;
+  }
+
+  h2 {
+    padding-bottom: 25px;
+    max-width: 70%;
+    font-family: sans-serif;
+    font-size: 1.75em;
+    font-weight: 600;
+    color: $medium-purple;
+
+  }
+  .date-and-comments {
+    border-top: 1px solid $border-gray;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    p {
+    }
+    span {
+      float: right;
+      color: $light-purple;
+
+    }
+  }
+
+  .topics-and-author {
+    border-top: 1px solid $border-gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+
+    .sponsor {
+      color: $light-purple;
+    }
+    .author {
+      float: right;
+    }
+  }
+
+  h3 {
+    border-top: 1px solid $border-gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $light-purple;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+  }
+
+}
