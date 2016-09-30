@@ -1,0 +1,16 @@
+body {
+  background-color: $background-gray;
+  padding: 50px;
+}
+
+.page-wrapper {
+  background-color: white;
+  border: 1px solid $border-gray;
+  border-radius: 5px;
+  height: 500px;
+  width: 100%;
+}
+
+.content-wrapper {
+  padding: 0px 50px 10px 50px;
+}
