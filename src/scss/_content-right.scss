@@ -1,7 +1,12 @@
 .right-image-wrapper {
-  float: right;
+  margin: 0 auto;
   margin-bottom: 20px;
-  width: 90%;
+  width: 50%;
+
+  @media screen and (min-width: 900px) {
+    width: 90%;
+    float: right;
+  }
 
   img {
     width: 100%;

@@ -1,4 +1,3 @@
-
 .header {
   height: 65px;
   border-bottom: 1px solid $border-gray;
@@ -87,4 +86,12 @@ form {
 .arrow-icon {
   color: $icon-gray;
   font-size: 0.5em;
+}
+
+
+// removes all but one nav item at smaller screens
+.responsive-li {
+  @media screen and (max-width: 880px) {
+    display: none;
+  }
 }
